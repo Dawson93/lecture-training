@@ -1,0 +1,55 @@
+while
+
+while (조건)	//조건 : 참/거짓, 참 = 1; 거짓 = 0
+{
+	명령문;
+}
+
+int sum = 0; i = 1;
+while (i <= 10)
+{
+	sum = sum + i;	//sum += i;
+	i++;
+	sum += i++;
+}
+Console;WriteLine("1부터10까지의 합 = {0}, sum);
+
+do while
+
+do
+{
+	명령문;
+} while (조건)
+
+int sum - 0; i = 1;
+do
+{
+	sum += i++;
+} while (i <=10)
+
+for
+
+for (초기값; 조건; 증감)
+{
+	명령문;
+}
+
+for (int i = 1; int <- 10; i++)
+{
+	sum += i;	
+}
+
+foreach	//배열 array
+
+
+foreach (배열의 데이터 요소)
+{
+	명령문;
+} 
+
+int arr[] =  new int[]{1,2,3,4,5,6,7,8,9,10};
+int sum = 0;
+foreach (int a in arr)
+{
+	sum += a;
+}
